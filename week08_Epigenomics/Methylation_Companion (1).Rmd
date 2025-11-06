@@ -228,3 +228,15 @@ boxplot(rna_tumor, rna_metast,
 
 ### I observe that ITGA3 expression tends to be higher in metastatic samples, while primary tumors show a wider spread with several outliers. Because there are only a few metastatic cases, the differences cannot be considered definitive, but the overall trend is consistent with previous studies linking ITGA3 to increased cell adhesion and metastatic potential in breast cancer.
 ```
+```{r}
+
+## Part 3 – CpG Site & Protein Domain Visualization
+
+
+### When I looked at the UCSC Genome Browser for BRCA1, ABO, and CDH1, I noticed that all three genes had CpG islands near their promoter regions, which are areas where methylation can affect how much the gene is turned on or off. For BRCA1 on chromosome 17, I saw a large CpG island near the start of the gene, and my results showed slightly higher methylation in metastatic samples, which matches earlier findings by Esteller et al. (2000) that BRCA1 promoter hypermethylation can silence the gene in breast cancer. For ABO on chromosome 9, there were CpG sites close to the promoter, showing that ABO promoter methylation can lower gene expression and may be linked to cancer spread. CDH1 also had a dense CpG island near its promoter, and it was slightly hypermethylated in metastatic samples, which supports the idea that methylation can weaken cell adhesion. Overall, I think these results suggest that promoter methylation may play a role in how some breast cancers become more invasive, though I can’t make strong conclusions because the metastatic sample size is so small.
+
+
+
+
+
+```
